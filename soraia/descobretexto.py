@@ -28,21 +28,15 @@ print(qntd_palavras_texto2)
 print(qntd_palavras_texto3)
 print(qntd_palavras_texto4)
 
-if qntd_palavras_texto1 > qntd_palavras_texto2:
+if qntd_palavras_texto1 > qntd_palavras_texto2 and qntd_palavras_texto1 > qntd_palavras_texto3 and qntd_palavras_texto1 > qntd_palavras_texto4:
     print("O texto escolhido será o texto 1")
 
-if qntd_palavras_texto1 > qntd_palavras_texto3:
-    print("O texto escolhido será o texto 1")
-    
-if qntd_palavras_texto1 > qntd_palavras_texto4:
-    print("O texto escolhido será o texto 1")
-    
-if qntd_palavras_texto2 > qntd_palavras_texto3:
-    print("O texto escolhido será o texto 2")
-    
-if qntd_palavras_texto2 > qntd_palavras_texto4:
+elif qntd_palavras_texto2 > qntd_palavras_texto3 and qntd_palavras_texto2 > qntd_palavras_texto4:
     print("O texto escolhido será o texto 2")
 
-if qntd_palavras_texto3 > qntd_palavras_texto4:
+elif qntd_palavras_texto3 > qntd_palavras_texto4:
     print("O texto escolhido será o texto 3")
+
+else:
+    print("O texto escolhido será o texto 4")
 
